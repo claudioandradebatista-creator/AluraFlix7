@@ -1,49 +1,64 @@
-body{
+body {
     background-color: rgb(138, 7, 219);
     color: #fbf6f6;
     font-family: 'Arial Narrow Bold', sans-serif;
     margin: 0px;
 }
-h1{
+
+h1 {
     color: darkblue;
     font-size: 40px;
 
 }
-p{
+
+p {
     font-size: 25px;
 
 }
-header{
+
+header {
     border-bottom: solid 3x color rgb(9, 9, 233);
     margin: 2px;
     padding: 10px;
     color: tomato;
 
 }
-.chamada{
+
+.chamada {
     background: #fbf6f6;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
-    
-}
-
-{
-    margin-right:8%;,
 
 }
-img{
-height: 200px;
 
-  }
-.categoria-videos{
+    .chamada-texto{
+    margin-right: 8%;
+
+}
+
+img {
+    height: 200px;
+
+}
+
+.categoria-videos {
     display: flex;
     overflow-y: auto;
     gap: 15px;
+    padding: 20px;
+    scroll-behavior: smooth;
 }
-.categoria{
-    padding-left: 20px;
-    padding-right: 20px;
-    
+
+.categoria-videos::-webkit-scrollbar {
+    height: 8px;
+
+}
+
+.categoria-videos::-webkit-scrollbar-thumb {
+
+    background-color: darkred;
+    border-radius: 4px;
+
 }
